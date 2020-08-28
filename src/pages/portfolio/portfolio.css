@@ -1,0 +1,111 @@
+.portfolio-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.portfolio-container-header{
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container-header-text{
+    font-size:30px;
+    color: yellow;
+}
+
+.portfolio-body{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio-body-row{
+   width: 700px;
+   border-radius: 20px 0px 20px 20px;
+   display: flex;
+   padding: 20px;
+   background-color: #11243e;
+   margin-bottom: 10px;
+}
+.portfolio-body-container-text{
+    width: 50%;
+    padding: 20px;
+
+}
+.portfolio-body-row:last-child{
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+}
+.portfolio-body-row-header{
+    height: 40px;
+}
+.portfolio-body-row-header-text{
+    color: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.portfolio-body-row-info{
+    height: 60px;
+    width: 100%;
+}
+.portfolio-body-row-info-text{
+    color: #fff;
+    margin: 0;
+}
+.portfolio-body-row-info-text{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 0;
+}
+.portfolio-body-row-img{
+    width: 100%;
+}
+.portfolio-body-container-img{
+    margin-top: 20px;
+    width: 50%;
+}
+
+@media only screen and (max-device-width:901px){
+
+    .portfolio-body{
+        width: 100%;
+
+    }
+    .portfolio-body-row{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .portfolio-body-row-header{
+        width: 100%;
+    }
+    .portfolio-body-container-text{
+        width: 100%;
+    }
+    .portfolio-body-row-header-text{
+        margin-top: 20px;
+    }
+    .portfolio-body-row-img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .portfolio-body-row-info{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .portfolio-body-row-info-text{
+        text-align: center;
+    }
+    
+}

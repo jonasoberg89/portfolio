@@ -1,0 +1,120 @@
+.experience-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.experience-row{
+    margin-top: 40px;
+    width: 70%;
+    height: auto;
+}
+.experience-header{
+    color:#fff;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.experience-header-text{
+    padding-left: 20px;
+    color: yellow;
+}
+
+.exp-rows{
+    color:#fff;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.exp-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.exp-date{
+    font-style: italic;
+    font-size: 18px;
+   
+}
+.exp-employer{
+    font-style: italic;
+    font-size: 18px;
+}
+.exp-other-rows{
+    width: 80%;
+    display: flex;
+}
+.exp-other-date{
+    width: 50%;
+}
+.exp-other-name{
+    width: 50%;
+}
+.experience-header-smaltext{
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+}
+.exp-title-other{
+    padding-left: 20px;
+}
+.experience-icon{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: yellow;
+}
+
+@media only screen and (max-device-width:901px){
+    .experience-container{
+        overflow-y: scroll;
+        height: 100vh;
+        display: block;
+    }
+    .experience-row{
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+    .experience-section{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .experience-header{
+        width: 90%;
+    }
+    .exp-rows {
+        width: 90%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+   .exp-other-rows{
+       width: 100%;
+   }
+   .exp-title-other{
+       padding-left: 30px;
+   }
+   .title-other-experience{
+       justify-content: space-between;
+   }
+   .exp-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.exp-date{
+    font-style: italic;
+    font-size: 16px;
+   
+}
+.exp-employer{
+    font-style: italic;
+    font-size: 14px;
+}
+
+}

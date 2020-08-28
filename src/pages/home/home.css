@@ -1,0 +1,35 @@
+.container-home{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.home-text{
+    padding: 0;
+    margin: 0;
+    
+}
+.home-logo{
+    max-width: 200px;
+    padding-top: 40px;
+}
+.big{
+    font-size:40px;
+    padding-bottom: 10px;
+}
+.small{
+    color:yellow;
+    padding-top: 40px;
+}
+
+@media only screen and (max-device-width:901px){
+    .big{
+        font-size: 25px;
+    }
+    .small{
+        font-size: 20px;
+    }
+    .home-logo{
+        max-width: 50px;
+    }
+}

@@ -1,0 +1,118 @@
+.container-contact{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.contact{
+    width: 70%;
+    height:60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-header-section{
+    width: 50%;
+    height: 80%;
+}
+
+.contact-header-title{
+    font-size: 1.8vw;
+    margin: 0;
+    color: yellow;
+}
+.contact-body{
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-body-section{
+    width: 50%;
+    height: 80%;
+}
+.contact-body-icons{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+.contact-icon{
+    color: #fff;
+    font-size: 2.4vw;
+    text-decoration: none;
+}
+.contact-icon-tag{
+    color: #fff;
+    font-size: 1.6vw;
+    text-decoration: none;
+    transform: scale(1);
+    margin-left: 10px;
+}
+.a-tag:hover{
+    transform: scale(1.1);
+  }
+  .a-tag:active {
+    transform: scale(1.2);
+  }
+
+  @media only screen and (max-device-width:901px){
+    .container-contact{
+        height: 100vh;
+    }
+      .contact{
+          width: 100%;
+          height: 84%;
+      }
+      .contact-header{
+          width: 100%;
+      }
+      .contact-header-section {
+        text-align: center;
+    }
+    .contact-body {
+        width: 100%;
+    }
+    .contact-body-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-body-icons{
+        margin-left: 94px;
+        width: 100%;
+    }
+
+    .contact-header-title{
+        font-size:20px;
+        margin: 0;
+        color: #fff;
+    }
+    .contact-icon{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .contact-icon-tag{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        transform: scale(1);
+        margin-left: 10px;
+    }
+
+  }
