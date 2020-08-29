@@ -1,17 +1,15 @@
 .portfolio-container{
     width: 100%;
-    height: 100vh;
-    position: absolute;
+    background-color: #0c182a;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
+    margin-top: 100px;
 }
 
 .portfolio-container-header{
     width: 100%;
     height: 100px;
-    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +22,7 @@
 
 .portfolio-body{
     width: 80%;
+    margin-top: 40px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -56,12 +55,15 @@
     margin: 0;
 }
 .portfolio-body-row-info{
-    height: 60px;
+    height: auto;
     width: 100%;
 }
 .portfolio-body-row-info-text{
     color: #fff;
     margin: 0;
+}
+.framework-title{
+    font-weight: bold;
 }
 .portfolio-body-row-info-text{
     font-size: 16px;
@@ -75,12 +77,30 @@
     margin-top: 20px;
     width: 50%;
 }
+.portfolio-framework{
+    font-style: italic;
+    font-weight: normal;
+}
 
 @media only screen and (max-device-width:901px){
+    .portfolio-container{
+        margin-top: 135px;
+        display: block;
 
+    }
+.portfolio-container-header{
+    height: auto;
+}
     .portfolio-body{
         width: 100%;
+        margin-top: 10px;
 
+    }
+    .portfolio-container-header-text{
+        margin: 0;
+    }
+    .portfolio-body-container-img{
+        width: 100%;    
     }
     .portfolio-body-row{
         width: 100%;

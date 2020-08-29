@@ -1,9 +1,15 @@
 .App {
-  height:100vh;
-  width: 100vw;
   background-color:#0c182a;
   display: flex;
+  flex-wrap: wrap;
   font-family:Helvetica, sans-serif;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
 }
 
 @media only screen and (max-device-width:901px){

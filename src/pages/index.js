@@ -4,6 +4,6 @@ import Contact from './contact/contact';
 import Portfolio from './portfolio/portfolio';
 import Experience from './experience/experience'
 
-const Pages = {Home,About,Contact,Contact,Portfolio,Experience};
+const Pages = {Home,About,Contact,Portfolio,Experience};
 
 export default Pages;

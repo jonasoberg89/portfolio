@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import TextLoop from "react-text-loop";
+import React from 'react';
 import "./portfolio.css"
 import Me from "../../utils/work"
-import img from "../../static/quiz.jpg"
 import { motion } from "framer-motion";
 
 function Portfolio() {
@@ -42,7 +40,6 @@ function Portfolio() {
                 initial={"before"}
                 animate={"after"}
                 className="portfolio-body">
-
                 {
                     Me.images.map((img, index) => {
                         return (
@@ -59,8 +56,8 @@ function Portfolio() {
                                     <div className="portfolio-body-row-info">
                                         <span className="portfolio-body-row-info-text">{img.info}</span>
                                     </div>
-                                    <p className="portfolio-body-row-info-text"> Framework: {img.framework}</p>
-                                    {img.url && <a target="_blank" href={img.url} className="portfolio-body-row-info-text">{img.url}</a>}
+                                    <p className="portfolio-body-row-info-text framework-title"> Framework: <span className="portfolio-framework">{img.framework}</span></p>
+                                    {img.url && <a target="blank" href={img.url} className="portfolio-body-row-info-text">{img.url}</a>}
                                 </div>
                             </motion.div>
 

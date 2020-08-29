@@ -1,20 +1,18 @@
 .container-about{
     width: 100%;
-    height: 70vh;
-    position: absolute;
+    height: 90%;
     display: flex;
     justify-content: center;
-    
+    background-color: #0c182a;
 }
 .about{
-    margin-top: 100px;
     width: 70%;
-    height: 100%;
+    height: 90%;
     display: flex;
+    margin-top: 100px;
 }
 .about-image{
     width: 40%;
-    height: 100%
 }
 .about-text{
     width: 60%;
@@ -24,7 +22,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%
 }
 
 .about-picture-jonas{
@@ -42,6 +39,10 @@
 ul{
     width: 40%;
 }
+.about-text-body-info-header{
+    text-align: center;
+    color: yellow;
+}
 .about-info-text{
     text-align: center;
     color: #fff;
@@ -50,7 +51,7 @@ ul{
 
 .about-text-header{
     width: 100%;
-    height: 10%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,37 +77,33 @@ ul{
 
 @media only screen and (max-device-width:901px){
     .container-about{
-        overflow-y: scroll;
-        height: 100vh;
     }
     .about-image{
         width: 100%;
-        height: 30%
     }
     .about-image-row{
-        height: auto;
+        max-height: 150px;
     }
     .about{
-        margin-top: 100px;
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 .about-text-header-title{
  font-size: 18px;
 }
     .about-text {
         width: 100%;
-        height: 40%;
+        height: auto;
+        background-color: #0c182a;
     }
     .about-picture-jonas {
-        width: 34%;
         border-radius: 50%;
-        max-width: 280px;
+        max-width: 130px;
     }
     .about-text-body-info{
         font-size: 16px;
-        padding: 20px 35px 35px 35px;
+        padding: 0px 35px 5px 35px;
     }
 }

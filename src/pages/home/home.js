@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import TextLoop from "react-text-loop";
+import React from 'react';
 import "./home.css"
 import { motion } from "framer-motion";
 
-import Reactlogo from "../../static/react.png"
-import Angularlogo from "../../static/angular.png"
-import Vuelogo from "../../static/vue.png"
+
 function Home() {
-    
+
     const containerVariants = {
         before: {},
-        after: { transition: { staggerChildren: 0.8 } },
+        after: { transition: { staggerChildren: 0.4 } },
     }
     const letterVariants = {
         before: {
@@ -35,7 +32,7 @@ function Home() {
 
     let welcome = ["Hello!", "My name is Jonas Öberg", "I am a frontend developer"]
     let info = ["Welcome to my portfolio!"]
-    let images = ["react", "angular","vue"]
+    let images = ["react", "angular", "vue"]
 
     return (
         <motion.div
@@ -68,7 +65,7 @@ function Home() {
                 >
                     {letter}
                 </motion.h1>
-                
+
             ))}
             {info.map((letter, index) => (
                 <motion.h3
@@ -82,25 +79,25 @@ function Home() {
                 >
                     {letter}
                 </motion.h3>
-                
+
             ))}
             <div>
-            {images.map((img, index) => (
-                <motion.img
-                    className="home-logo"
-                    key={index}
-                    src= {require(`../../static/${img}.png`)}
-                    width={"auto"}
-                    background={""}
-                    style={{ position: "relative" }}
-                    variants={letterVariants}
-                >
-                </motion.img>
-                
-            ))}
-                
+                {images.map((img, index) => (
+                    <motion.img
+                        className="home-logo"
+                        key={index}
+                        src={require(`../../static/${img}.png`)}
+                        width={"auto"}
+                        background={""}
+                        style={{ position: "relative" }}
+                        variants={letterVariants}
+                    >
+                    </motion.img>
+
+                ))}
+
             </div>
-        
+
         </motion.div>
     );
 }

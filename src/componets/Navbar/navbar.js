@@ -8,7 +8,7 @@ function Navbar({ menubar, toggle }) {
     return (
         <>
             {!menubar && <div className="nav-button">
-                <FiMenu onClick={() => { toggle() }} />
+                <FiMenu className="nav-button-text" onClick={() => { toggle() }} />
             </div>}
             {menubar &&
                 <nav className="navbar">

@@ -5,6 +5,9 @@
     align-items: center;
     z-index: 1000;
     background-color:#0c182a;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
 }
 
 .navbar-container{
@@ -16,7 +19,6 @@
 }
 a{
     color: rgb(243, 243, 243);
-    opacity: 0.9;
     font-size: 3rem;
     display: flex;
     transform: scale(1);
@@ -27,16 +29,15 @@ a{
     transition: 0.3s;
 }
 .nav-button{
-    color: #fff;
     font-size: 3rem;
     color: rgb(243, 243, 243);
-    opacity: 0.9;
     font-size: 3rem;
-    transform: scale(1);
     cursor: pointer;
-    padding: 10px 25px;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
+}
+.nav-button-text{
+    padding: 10px 25px;
 }
 .navbar-text-icon{
     padding-left: 20px;
@@ -69,4 +70,14 @@ a:hover{
         font-size: 20px;
     }
 
+}
+
+@media only screen and (max-device-width:330px){
+    .nav-icon{
+    font-size: 22px;
+        
+    }
+    .navbar-text-icon{
+        font-size: 16px;
+    }
 }
