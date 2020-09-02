@@ -33,7 +33,7 @@ function Portfolio() {
     return (
         <div className="portfolio-container">
             <div className="portfolio-container-header">
-                <h2 className="portfolio-container-header-text">Porfolio</h2>
+                <h2 className="portfolio-container-header-text">Portfolio</h2>
             </div>
             <motion.div
                 variants={containerVariants}
@@ -49,7 +49,7 @@ function Portfolio() {
                                 variants={letterVariants}
                                 className="portfolio-body-row">
                                 <div className="portfolio-body-container-img">
-                                    <img className="portfolio-body-row-img" src={require(`../../static/${img.file}.jpg`)} alt="" />
+                                    <img className="portfolio-body-row-img" src={require(`../../static/${img.file}.jpg`)} alt={img.title} />
                                 </div>
                                 <div className="portfolio-body-container-text">
                                     <div className="portfolio-body-row-header"><h3 className="portfolio-body-row-header-text">{img.title}</h3></div>

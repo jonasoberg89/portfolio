@@ -41,9 +41,9 @@
     padding: 20px;
 
 }
-.portfolio-body-row:last-child{
+.portfolio-body-row:nth-last-child(-n+2){
     border-radius: 20px 20px 20px 20px;
-    width: 100%;
+    width: 90%;
 }
 .portfolio-body-row-header{
     height: 40px;

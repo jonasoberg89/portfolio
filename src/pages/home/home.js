@@ -88,6 +88,7 @@ function Home() {
                         key={index}
                         src={require(`../../static/${img}.png`)}
                         width={"auto"}
+                        alt={img}
                         background={""}
                         style={{ position: "relative" }}
                         variants={letterVariants}

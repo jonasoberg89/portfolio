@@ -24,15 +24,15 @@ function About() {
                     </div>
                
                         <p className="about-text-body-info">
-                        I graduated in May 2020 and am now a certified Front-End Developer after studying at EC-Utbildning Helsingborg,
+                            I am now a certified Front-End Developer after studying at EC-Utbildning Helsingborg,
                             where I gained the knowledge and experience required to create a modern application.
                             This education focused mainly on front-end development,
                             but I have a personal interest in back-end development, and a goal of mine is to become a Full Stack Developer.
 
                         </p>
                         <p className="about-text-body-info">
-                            During my schooling I have been a part of projects, in group as well as solo. During my internship I have also worked with agile methods, such as SCRUM.
-                            Before entering my studies, I have seven years’ experience within sales, where I have built up skills such as being patient and in facing customers.
+                            During my schooling I have been a part of projects, in group as well as on my own. During my internship I have also worked with agile methods, such as SCRUM.
+                            Before entering my studies, I have seven years of experience within sales, where I have built up skills such as being patient and in facing customers.
                             I held the responsibility of managing a warehouse and hardware store for three years. A fun fact, and a great experience is that I have also spent three months in Manhattan selling Christmas trees.
                             </p>
                         <p className="about-text-body-info">

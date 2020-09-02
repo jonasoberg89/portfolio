@@ -3,17 +3,17 @@
     display: flex;
     justify-content: flex-end;
     background-color: #0c182a;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .experience-row{
-    width: 70%;
+    width: 80%;
     background-color: #0c182a;
 }
 .experience-header{
     color:#fff;
-    width: 100%;
-    font-size: 24px;
+    width: 60%;
+    font-size: 22px;
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -22,16 +22,29 @@
     padding-left: 10px;
     color: yellow;
 }
+.experience-section{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .exp-rows{
     color:#fff;
     width: 60%;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.exp-rows-bottom{
+    color:#fff;
+    width: 70%;
+    margin-top: 10px;
 }
 
 .exp-title{
     font-weight: bold;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 .exp-date{
     font-style: italic;
@@ -43,8 +56,14 @@
     font-size: 18px;
 }
 .exp-other-rows{
-    width: 80%;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+.exp-other-rows-education{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .exp-other-date{
     width: 50%;
@@ -66,6 +85,16 @@
     font-size: 40px;
     color: yellow;
 }
+.experience-bottom-row{
+    width: 60%;
+}
+.experience-bottom-box{
+    width: 100%;
+}
+.exp-employer-education{
+    font-style: italic;
+    font-size: 16px;
+}
 
 @media only screen and (max-device-width:901px){
     .experience-container{
@@ -86,7 +115,13 @@
         width: 90%;
     }
     .exp-rows {
-        width: 90%;
+        width: 80%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding: 10px;
+    }
+    .exp-rows-bottom{
+        width: 95%;
         margin-top: 12px;
         margin-bottom: 12px;
         padding: 10px;
@@ -111,7 +146,16 @@
 }
 .exp-employer{
     font-style: italic;
-    font-size: 14px;
+    font-size: 16px;
 }
+.exp-employer-education{
+    font-style: italic;
+    font-size: 14x;
+    padding-left: 40px;
+}
+.experience-bottom-row {
+    width: 90%;
+    display: block;
 
+}
 }

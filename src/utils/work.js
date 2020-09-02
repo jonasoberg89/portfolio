@@ -2,25 +2,25 @@
 const Me = {
     experience: [
         {
-            title: "Frontend developer/customer service",
+            title: "Frontend Developer/customer service",
             date: "March 2020 - aug 2020",
             employer: "Procommerca",
-            info: "During my first internship that I had from my education I develop their bookingsystem with functions like inivtationcard, dashboard and automated their invoicing process using Fortnox API. I used AnuglarJS, NodeJS and MongoDB on daily bases. I also worked there full time during the summer 2019 and part time during my education ",
+            info: "During my first internship I develop their booking system with functions like invitation cards, dashboard and automated their invoicing process using Fortnox API. I used AnuglarJS, NodeJS and MongoDB on daily bases. I also worked there full time during the summer 2019 and part time during my education ",
             status: ""
 
         },
         {
-            title: "Internship Frontend developer",
-            date: "july 2019 - may 2020",
+            title: "Internship Frontend Developer",
+            date: "July 2019 - may 2020",
             employer: "Sogeti",
-            info: "During my second internship that I had from my education me and my team develop a chatbot to a customer. I used Firebase, VueJS and MongoDB on daily bases. We used SCRUM as a working method.",
+            info: "During my second internship that I had. My team and I developed a chatbot to a customer I used Firebase, VueJS and MongoDB on daily bases. We used SCRUM as a working method.",
             status: ""
         },
         {
-            title: "Responsibility of managing a warehouse and hardware store",
+            title: "Hardware store responsible/seller",
             date: "March 2016 - sep 2018",
             employer: "golvpoolen",
-            info: "Responsible for the customers in the hardware store, salesment,stock order and reconstruction. i was also salesman in the ordinary store.",
+            info: "Responsible for the customers at the hardware store, salesment,stock order and reconstruction.",
             status: "Full-time employment"
         },
 
@@ -30,14 +30,14 @@ const Me = {
     otherexperience: [
         {
             title: "Seller",
-            date: "May-dec 2019",
+            date: "2019",
             employer: "Hornbach",
 
         },
         {
             title: "Seller",
             date: "2015-2018",
-            employer: "Golvpoolen",
+            employer: "golvpoolen",
 
         },
         {
@@ -84,7 +84,7 @@ const Me = {
         {
             title: "Dashboard",
             file: "dashboard",
-            info: "Built a Dashboard that showed a lot of diffrent data.We sorted and fetch the data from MongoDB.",
+            info: "Built a Dashboard that showed different data. We sorted and fetch the data from MongoDB.",
             framework: "AngularJS, NodeJS and Mongodb.",
             url: ""
 
@@ -105,7 +105,15 @@ const Me = {
 
         },
         {
-            title: "Connect four",
+            title: "Web Shop",
+            file: "beer",
+            info: "Built a web shop that sold beer.",
+            framework: "ReactJS, Docker and Cockpit.",
+            url: ""
+
+        },
+        {
+            title: "Connect Four",
             file: "warcraft",
             info: "Built Connect four with Warcraft theme and sound effects. One of my first project using React.",
             framework: "ReactJS.",
